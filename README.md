@@ -8,7 +8,7 @@ Pass your Slack organization (`SLACK_ORGANIZATION`) and API token (`SLACK_API_TO
 as environment variables to the container. The container will run the Slackin web app
 on port `80` - in the example below, a port forward to local port 3000 is configured:
 
-  docker run -e SLACK_ORGANIZATION=<Slack organization> \
-             -e SLACK_API_TOKEN=<Slack API token> \
-             -d -p 3000:80 \
-             inthepocket/slackin
+    docker run -e SLACK_ORGANIZATION=<Slack organization> \
+              -e SLACK_API_TOKEN=<Slack API token> \
+              -d -p 3000:80 \
+              inthepocket/slackin
